@@ -9,7 +9,8 @@
     "build": "ssc build",
     "test:standard": "standard",
     "test-skip:standalone": "ssc build --headless -r -o test",
-    "test:integration": "ssc build -r -o --test=./test/index.js"
+    "test:integration": "ssc build -r -o --test=./test/index.js",
+    "build:www": "pushd browser; ./build.sh; popd"
   },
   "dependencies": {
     "@socketsupply/indexed": "^1.0.3"

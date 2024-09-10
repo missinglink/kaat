@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "Bundler",
+    "paths": {
+      "socket:util": ["../node_modules/@socketsupply/socket/util.js"],
+      "socket:buffer": ["../node_modules/@socketsupply/socket/buffer.js"],
+      "socket:crypto": ["../node_modules/@socketsupply/socket/crypto.js"],
+
+      "socket:api": ["../node_modules/@socketsupply/latica/src/api.js"],
+      "socket:nat": ["../node_modules/@socketsupply/latica/src/index.js"],
+      "socket:cache": ["../node_modules/@socketsupply/latica/src/index.js"],
+      "socket:packets": ["../node_modules/@socketsupply/latica/src/index.js"],
+      "socket:encryption": ["../node_modules/@socketsupply/latica/src/index.js"],
+
+      "socket:os": ["../browser/stubs.js"],
+      "socket:mime": ["../browser/stubs.js"],
+      "socket:path": ["../browser/stubs.js"],
+      "socket:network": ["../browser/stubs.js"],
+      "socket:process": ["../browser/stubs.js"],
+      "socket:application": ["../browser/stubs.js"],
+    }
+  }
+}

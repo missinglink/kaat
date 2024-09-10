@@ -1,6 +1,7 @@
 import { component } from '../../lib/component.js'
 import { Stream } from '../../lib/stream.js'
 import Modal from '../../components/modal.js'
+import Avatar from '../../components/avatar.js'
 
 async function AudioStream (props) {
   props.stream.onAudioLevelChange = level => {
